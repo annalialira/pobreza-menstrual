@@ -13,9 +13,9 @@ $servername = "localhost";
 $database = "pobrezamenstrual";
 $username = "root";
 $password = "";
-// Create connection
+// Cria a conexao
 $conexao = mysqli_connect($servername, $username, $password, $database);
-// Check connection
+// Checa a conexao
 if (!$conexao) {
     die("Connection failed: " . mysqli_connect_error());
 }
