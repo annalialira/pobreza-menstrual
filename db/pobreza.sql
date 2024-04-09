@@ -29,8 +29,15 @@ ENGINE = InnoDB;
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `mydb`.`texto` (
   `idtexto` INT NOT NULL,
-  `textos` VARCHAR(45) NULL,
-  PRIMARY KEY (`idtexto`))
+  `textos` TEXT NULL,
+  `titulo_idtitulo` INT NOT NULL,
+  PRIMARY KEY (`idtexto`, `titulo_idtitulo`),
+  INDEX `fk_texto_titulo1_idx` (`titulo_idtitulo` ASC) VISIBLE,
+  CONSTRAINT `fk_texto_titulo1`
+    FOREIGN KEY (`titulo_idtitulo`)
+    REFERENCES `mydb`.`titulo` (`idtitulo`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
 ENGINE = InnoDB;
 
 
