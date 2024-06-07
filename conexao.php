@@ -9,7 +9,7 @@
 <body>
 <?php
 $servername = "localhost";
-$database = "pobrezamenstrual";
+$database = "pobreza";
 $username = "root";
 $password = "";
 // Cria a conexao

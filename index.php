@@ -2,8 +2,7 @@
 // conexao com o banco 
 include_once 'conexao.php';
 ?>
- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
- <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
  <link rel="stylesheet" href="./style.css?v=<?php echo rand(0,999999);?>">
  <title>Pobreza Menstrual</title>
  <body >
@@ -17,7 +16,7 @@ include_once 'conexao.php';
 <main id="index" class="container">
           <div class="row">
           <?php 
-          $sql = "SELECT * FROM dadospobreza";
+          $sql = "SELECT * FROM pobreza";
           // executa o comando SQL no banco e retornar os dados
           $result = mysqli_query( $conexao, $sql );
           // laco de repeticao 
