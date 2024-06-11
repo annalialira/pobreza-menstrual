@@ -3,7 +3,7 @@
 include_once 'conexao.php';
 ?>
 
- <link rel="stylesheet" href="style.css">;
+ <link rel="stylesheet" href="style.css">
  <link rel="preconnect" href="https://fonts.googleapis.com">
  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
@@ -11,7 +11,7 @@ include_once 'conexao.php';
  <body >
 
 <header class="row">
-  <a class="navbar-brand ml-2"  href="#">Pobreza Menstrual</a>
+  <h1>Pobreza Menstrual no Sistema Carcerário Brasileiro</h1>
   
 </nav>
 </php>
@@ -24,9 +24,11 @@ include_once 'conexao.php';
           // laco de repeticao 
           while($row = mysqli_fetch_array($result)){       
           ?>
-          <div class="col-6 ">
+          <div class="artigos">
             <a href="artigo.php?id=<?php echo $row['artigoid'];?>"><?php echo $row['titulo'];?></a>
-            <p href="artigo.php?id=<?php echo $row['artigoid'];?>"><?php echo $row['subtitulo'];?></p>  
+            <p href="artigo.php?id=<?php echo $row['artigoid'];?>"><?php echo $row['subtitulo'];?></p>
+            <p href="artigo.php?id=<?php echo $row['artigoid'];?>"><?php echo $row['texto'];?></p>
+            <p href="artigo.php?id=<?php echo $row['artigoid'];?>"><?php echo $row['autor'];?></p>
           </div>
           <?php
           }
