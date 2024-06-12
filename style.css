@@ -1,23 +1,15 @@
 body {
     margin: 0;
     padding: 0;
-   
-   
 }
  
 header {
     background-color: rgb(236, 232, 169);
-    height: 75px;
+height: 75px;
     padding: 25px;
     text-align: center;
 }
-footer{
-    background-color: rgb(236, 232, 169);
-    height: 70px;
-    padding: 25px;
-       
-}
- 
+
 main {
     background-color: #932b2b;
     padding: 20px;
@@ -25,13 +17,6 @@ main {
     margin-bottom: 20px;
     justify-content: center;
 }
- 
-main {
-   
-    justify-content: space-between;
-    padding: 20px;
-}
- 
 .block {
     flex: 1;
     background-color: rgb(236, 232, 169);
@@ -39,20 +24,7 @@ main {
     margin-bottom: 20px;
     border-radius: 10px;
 }
-     
  
-.block:last-child {
-    margin-right: 0;
-}
- 
- 
-.primeiro{
-    color: black;
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-family: "DM Serif Text", serif;
-     
-}
 .dm-serif-text-regular {
     font-family: "DM Serif Text", serif;
     font-weight: 400;
@@ -64,7 +36,31 @@ main {
     font-weight: 400;
     font-style: italic;
   }
- 
+.cordolink{
+    color: black;
+}
+.linkcor{
+    color: black;
+}
+
 h2, p{
     margin-left: 10px;      
 }
+
+.outrapagina{
+    color: black;
+    text-align: center;
+}
+
+.textoartigo{
+    text-align: center;
+}
+
+footer{
+    background-color: rgb(236, 232, 169);
+    text-align: center;
+    height: 100px;
+    margin-bottom: 70px;
+       
+}
+ 
