@@ -16,6 +16,7 @@ $artigoid = $_GET['id'];
     <h2><a class="linkcor" href="artigo.php?id=<?php echo $row['artigoid'];?>"><?php echo $row['titulo'];?></a></h2>
     <p class="textoartigo "href="artigo.php?id=<?php echo $row['artigoid'];?>"><?php echo $row['subtitulo'];?></p>
     <p href="artigo.php?id=<?php echo $row['artigoid'];?>"><?php echo $row['texto'];?></p>
+    <img src="img/<?php echo $row['imgprincipal'];?>" alt="" srcset="">
     <p href="artigo.php?id=<?php echo $row['artigoid'];?>"><?php echo $row['autor'];?></p>
     </div>
     <footer id="sticky-footer">
