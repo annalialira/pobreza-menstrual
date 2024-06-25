@@ -5,6 +5,19 @@ include_once 'conexao.php';
 
 $artigoid = $_GET['id'];
 ?>
+<link rel="stylesheet" href="style.css?t=<?php echo date('YmdHis').rand(1,999999)?>">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
+
+ <title>Pobreza Menstrual no Sistema Carcerário Brasileiro</title>
+</head>
+
+ <body>
+
+<header >
+  <h1 class="titulo">Pobreza Menstrual no Sistema Carcerário Brasileiro</h1>
+</header>
  <link rel="stylesheet" href="style.css?t=<?php echo date('YmdHis').rand(1,999999)?>">
 
 <?php 

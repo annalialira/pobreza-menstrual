@@ -7,13 +7,14 @@ include_once 'conexao.php';
  <link rel="preconnect" href="https://fonts.googleapis.com">
  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
+ <link rel="shortcut icon" type="imagex/png" href="img/icone.png">
 
  <title>Pobreza Menstrual no Sistema Carcerário Brasileiro</title>
 </head>
 
  <body>
 
-<header >
+<header>
   <h1 class="titulo">Pobreza Menstrual no Sistema Carcerário Brasileiro</h1>
 </header> 
 
