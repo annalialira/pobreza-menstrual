@@ -8,6 +8,7 @@ header {
     height: 75px;
     padding: 25px;
     text-align: center;
+    border-radius: 5px;
 }
 
 main {
@@ -28,13 +29,16 @@ main {
     font-family: "DM Serif Text", serif;
     font-weight: 400;
     font-style: normal;
-  }
+}
  
   .dm-serif-text-regular-italic {
     font-family: "DM Serif Text", serif;
     font-weight: 400;
     font-style: italic;
   }
+.trabalho a{
+    color: black;
+}
 .cordolink{
     color: black;
 }
@@ -43,7 +47,7 @@ main {
 }
 
 h2, p{
-    margin-left: 10px;      
+    margin-left: 8px;      
 }
 
 .outrapagina{
@@ -59,14 +63,54 @@ footer{
     background-color: rgb(236, 232, 169);
     height: 75px;
     text-align: center;
-    padding: 0;
+    padding: 20px;
     margin-right: -20px;
     margin-left: -20px;
     margin-bottom: 20px;
-    color: rgb(236, 232, 169);
+    color: rgb(248, 246, 217);
 }
 
 a{
     text-decoration: none;
 }
+
+p{
+    text-align: justify;
+    padding: 5px;
+    margin-right: 25px;
+    font-size: large;
+}
+
+.trabalho{
+    color: black;
+    text-align: center;
+}
+.azul{
+    text-decoration: none;
+}
  
+img{
+    width: 350px;
+    height: 350px;
+    padding: 20px;
+}
+
+.autor{
+    text-align: center;
+}
+
+i{
+    width: 200px;
+    height: 50px;
+}
+
+.bodyartigo{
+    background-color: rgb(236, 232, 169);
+}
+
+.textoartigo{
+    justify-content: center;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 50px;
+}
