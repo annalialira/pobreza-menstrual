@@ -26,15 +26,14 @@ $artigoid = $_GET['id'];
     ?>
     <div class="outrapagina">
     <h2><a class="linkcor" href="artigo.php?id=<?php echo $row['artigoid'];?>"><?php echo $row['titulo'];?></a></h2>
-    <p class="textoartigo "href="artigo.php?id=<?php echo $row['artigoid'];?>"><?php echo $row['subtitulo'];?></p>
-    <p href="artigo.php?id=<?php echo $row['artigoid'];?>"><?php echo $row['texto'];?></p>
-    <p class="autor"href="artigo.php?id=<?php echo $row['artigoid'];?>"><?php echo $row['autor'];?></p>
+    <p class="subtitulo"href="artigo.php?id=<?php echo $row['artigoid'];?>"><?php echo $row['subtitulo'];?></p>
+    <div class="textoartigo"><p href="artigo.php?id=<?php echo $row['artigoid'];?>"><?php echo $row['texto'];?></p></div>
+    <strong><p class="autor"href="artigo.php?id=<?php echo $row['artigoid'];?>"><?php echo $row['autor'];?></p></strong>
     <img src="img/<?php echo $row['imgprincipal'];?>" alt="" srcset="">
     </div>
-    <footer id="sticky-footer">
-    <a href="http://https://github.com/annalialira" target="_blank"><i class="fa-brands fa-github"></i></a>
-    <a href="https://github.com/GiovannaPandolfo" target="_blank"><i class="fa-brands fa-github"></i></a>
-    <p class="trabalho">Link do trabalho completo: <a href="https://senacrsedu-my.sharepoint.com/:w:/g/personal/04446713078_senacrs_edu_br/ETS8ZVuFlMdBnrGr1kf4kSIBOkLrLVimdxusgHfzWuTmRQ?e=Pe5fn0" ><strong>Pobreza Menstrual no Sistema Carcerário Brasileiro</strong></a></p>
+    <footer>
+    <p class="trabalho">Acesse o projeto completo: <a href="https://senacrsedu-my.sharepoint.com/:w:/g/personal/04446713078_senacrs_edu_br/ETS8ZVuFlMdBnrGr1kf4kSIBOkLrLVimdxusgHfzWuTmRQ?e=Pe5fn0" ><strong>Pobreza Menstrual no Sistema Carcerário Brasileiro</strong></a></p>
+    </footer>
   </footer>
 <?php
 

@@ -39,8 +39,8 @@ include_once 'conexao.php';
     </div>
       
     <footer>
-    <a href="http://https://github.com/annalialira" target="_blank"><i class="fa-brands fa-github"></i></a>
-    <a href="https://github.com/GiovannaPandolfo" target="_blank"><i class="fa-brands fa-github"></i></a>
+    <a class="trabalho" href="https://github.com/annalialira" target="_blank"><i class="fa-brands fa-github"></i></a>
+    <a class="trabalho" href="https://github.com/GiovannaPandolfo" target="_blank"><i class="fa-brands fa-github"></i></a>
     <p class="trabalho">Acesse o projeto completo: <a href="https://senacrsedu-my.sharepoint.com/:w:/g/personal/04446713078_senacrs_edu_br/ETS8ZVuFlMdBnrGr1kf4kSIBOkLrLVimdxusgHfzWuTmRQ?e=Pe5fn0" ><strong>Pobreza Menstrual no Sistema Carcerário Brasileiro</strong></a></p>
     </footer>
 </body>
